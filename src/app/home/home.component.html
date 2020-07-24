@@ -19,13 +19,13 @@
     <div class="item-1" fxFlex="20%">
       <img
         class="main-img"
-        src="/assets/images/me-outside.jpg"
-        alt="photo of Andrew Bateman"
+        src={{profile.avatar_url}}
+        alt="photo of Amir Akhavan Kharazian"
       />
       <h2 class="main-heading">
-        Andrew Bateman
+        Amir Akhavan Kharazian
       </h2>
-      <h3 class="main-subheading">Programming, Engineering & IT</h3>
+      <h3 class="main-subheading">Software developer</h3>
     </div>
 
     <!--Top 'about' section rhs-->
@@ -36,10 +36,8 @@
       </h2>
 
       <p class="about-para">
-        I have been studying programming part-time for over 3 years, completing
-        a range of projects, online courses & tutorials from FreeCodeCamp,
-        Treehouse, Udemy, Coursera and Youtube etc. I am currently studying hard
-        for Google Associate Cloud Engineer Certification. I have read countless
+        I have been studying programming part-time for over 15 years, completing
+        a range of projects, online courses & tutorials. I have read countless
         programming-related information online and have
         <span *ngIf="profile" class="about-repo-text"> {{ repos }}</span>
         repositories on Github (last updated:

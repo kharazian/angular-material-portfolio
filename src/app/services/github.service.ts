@@ -11,7 +11,7 @@ export class GithubService {
 	constructor(private http: HttpClient) { }
 
 	getUserProfile(): Observable<any> {
-		const githubUrl = 'https://api.github.com/users/andrewjbateman';
+		const githubUrl = 'https://api.github.com/users/kharazian';
 		return this.http.get(githubUrl);
 	}
 }
